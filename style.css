@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+.header{
+    font-size: 7rem;
+    text-align: center;
+    margin-top: 130px;
+    position: relative;
+    left:4rem;
+    font-weight: bolder;
+    
+
+}
+
+.form{
+
+    margin-top: 50px;
+    
+    text-align: center;
+}
+
+.form input{
+    height:2.5rem;
+    width: 35rem;
+    border-radius: 40px;
+    outline: none;
+
+}
+
+.form input::placeholder{
+
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    font-weight: 1000;
+    padding-left: 3rem;
+
+}
+
+#Search{
+    position:relative;
+    left:2rem;
+color: #868686;
+}
+
+#microphone{
+    position:relative;
+    right: 3rem;
+    color: blue;
+}
+
+body{
+background-color:rgb(255,255,255);
+overflow: hidden;
+}
+
+.header span:nth-child(1){
+    color:rgb(66,133,244);
+    position: relative;
+    left:1rem;
+}
+
+.header span:nth-child(2){
+    color:rgb(234,67,53);
+    
+}
+
+.header span:nth-child(3){
+    color: rgb(251,188,5);
+    position: relative;
+    right:1.5rem;
+
+}
+.header span:nth-child(4){
+    position: relative;
+    right:3rem;
+
+   color: rgb(66,133,244);
+}
+.header span:nth-child(5){
+    position: relative;
+    right:4.5rem;
+color:rgb(52,168,83);
+
+}
+.header span:nth-child(6){
+    position: relative;
+    right: 6rem;
+    color:rgb(234,67,53);
+}
+
+.MainLayer{
+    height: 20vh;
+    width:50%;
+    margin: auto;
+    
+    display: flex;
+}
+
+.MainLayer .box{
+    height: 20vh;
+    width: 20%;
+  
+}
+
+.MainLayer .box:hover{
+    background-color: rgb(233,233,233);
+}
+
+
+.MainLayer .box i{
+    /* border: 2px solid red; */
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 2.5rem;
+    margin-left: 3.9rem;
+    
+    background-color:#F5EAE8;
+    
+}
+
+.MainLayer .box p{
+    text-align: center;
+}
